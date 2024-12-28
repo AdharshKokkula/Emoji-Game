@@ -1,0 +1,20 @@
+.content-container {
+  height: 100vh;
+  background-color: #aa9feb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-cards-container {
+  background-color: #aa9feb;
+  list-style-type: none;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  /* grid-template-rows: 200px 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px 200px; */
+  max-height: 90vh;
+  grid-template-rows: repeat(4, 1fr); /* Adjust for proportional resizing */
+  grid-template-columns: repeat(4, 1fr);
+}

@@ -1,0 +1,22 @@
+.nav-bar {
+  color: #ffffff;
+  background-color: #b9b2f0;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 150px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scores-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}

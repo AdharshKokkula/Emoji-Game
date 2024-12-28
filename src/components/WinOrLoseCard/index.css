@@ -1,0 +1,48 @@
+.win-card-container,
+.lose-card-container {
+  width: 55vw;
+  background-color: #b9b2f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+  margin: 15px 45px;
+}
+
+.win-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 45px;
+}
+
+.you-won-heading {
+  color: #ffffff;
+  font-size: 45px;
+}
+
+.best-score-p {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+  margin: 4px;
+}
+
+.best-score {
+  color: #6a59ff;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+.play-again-button {
+  background-color: #ffce27;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 14px;
+  padding: 12px 14px;
+}
